@@ -32,7 +32,9 @@ html,body{height:100%}
 body{margin:0;background:var(--desk);color:var(--ink);font:13px/1.35 var(--font-ui);overflow:hidden;-webkit-font-smoothing:none}
 button{font:inherit;color:inherit}
 #shell{height:100%;display:flex;flex-direction:column;position:relative}
-#desktop{flex:1;min-height:0;position:relative;overflow:hidden}
+#desktop{flex:1;min-height:0;position:relative;overflow:hidden;
+	background:var(--desk) url("background.png") center/cover no-repeat;
+	image-rendering:pixelated}
 #brand{position:absolute;right:var(--gutter-r);bottom:10px;color:#bdf3f3;font:22px/1 var(--font-mono);pointer-events:none;text-align:right}
 
 /* desktop icons */
